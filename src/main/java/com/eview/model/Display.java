@@ -7,12 +7,14 @@ package com.eview.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  *
  * @author HP
  */
 @Entity(name = "display")
+@Table(name = "display")
 public class Display {
 @Id
     
