@@ -4,7 +4,7 @@
 
 <h1>Merchant View</h1>
 <div class="col-md-10">
-    <table class="table" border="1" width="45" cellspacing="1">
+    <table class="table" border="1" width="45" cellspacing="1" id="myTable">
         <thead>
             <tr class="table">
                 <th>Id</th>
@@ -36,5 +36,14 @@
         </tbody>
     </table>
 </div>
-</body>
-</html>
+<script>
+    $('#myTable').DataTable({
+        responsive: true,
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    });
+    $("#myTable").show();
+</script>
+<jsp:include page="/WEB-INF/jsp/common/home/footer.jsp"/> 

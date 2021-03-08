@@ -4,8 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity(name = "tempProduct")
-@Table(name = "tempProduct")
+@Entity(name = "tempproduct") 
+@Table(name = "tempproduct")
 public class TempProduct {
 
     @Id

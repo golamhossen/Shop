@@ -29,7 +29,8 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
         <link href="https://eviewbd.com/adminlte/css/AdminLTE.css" rel="stylesheet" type="text/css"/>
-
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
 
 
 
@@ -86,7 +87,7 @@
                                     <a href="/sales/view1" class="dropdown-item">Weekly Sales Report</a>
                                     <a href="/sales/view2" class="dropdown-item">Monthly Sales Report</a>
                                     <a href="/sales/view3" class="dropdown-item">Yearly Sales Report</a>
-                                    <a href="/stock/view1" class="dropdown-item">Stock Report</a>
+                                    <a href="/stock/view1" class="dropdown-item">Overall Stock Report</a>
 
                                 </div>
                             </div>
